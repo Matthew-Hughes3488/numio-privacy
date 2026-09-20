@@ -47,7 +47,7 @@
         <dt>Supabase — accounts and saved work</dt>
         <dd>Hosts authentication, the backend and stored learning information, including questions, solutions and conversations. <a href="https://supabase.com/privacy">Supabase privacy policy</a>.</dd>
         <dt>OpenAI — reading photos and explaining maths</dt>
-        <dd>Receives submitted photos for extraction, and question text and relevant solution or conversation context for explanations. It receives the image itself, including any personal information visible in it. The current integration requests no response storage for photo extraction but enables response storage for generation. This does not establish that all provider logs are deleted immediately. Provider retention and deletion arrangements must be finalised before release. <a href="https://openai.com/policies/privacy-policy/">OpenAI privacy policy</a>.</dd>
+        <dd>Receives submitted photos for extraction, and question text and relevant solution or conversation context for explanations. It receives the image itself, including any personal information visible in it. Numio's backend does not keep the submitted photos. The current integration disables response storage for photo extraction but enables it for generation. OpenAI documents default abuse-monitoring retention of up to 30 days, with exceptions for legal or safety needs, and a default 30-day period for stored responses. Disabling response storage does not disable all provider retention. Account-specific controls and deletion arrangements remain to be confirmed. See <a href="https://developers.openai.com/api/docs/guides/your-data">OpenAI's API data controls</a> and <a href="https://openai.com/policies/privacy-policy/">privacy policy</a>.</dd>
         <dt>RevenueCat — subscription management</dt>
         <dd>Receives an app user identifier and subscription and purchase information to manage access. An analytics identifier connects relevant subscription events with PostHog. The integration does not intentionally attach your homework, photos, name or email to RevenueCat. <a href="https://www.revenuecat.com/privacy/">RevenueCat privacy policy</a>.</dd>
         <dt>PostHog — app analytics</dt>
@@ -76,6 +76,7 @@
       <h2 id="children">Younger users and families</h2>
       <p>Numio is intended to help learners, including children. A parent, guardian or young person can contact us with privacy questions or requests. Children have privacy rights too.</p>
       <p>This draft does not claim that age checks or parental-consent arrangements are already in place. Age-appropriate privacy information, the lawful basis for children's information, any required parental consent, and suitable safeguards need to be settled before making the app available to children.</p>
+      <p>OpenAI's guidance says personal data of children under 13, or below the applicable digital-consent age, should not be processed without Zero Data Retention enabled. Numio's project has not yet been verified to meet that requirement. This must be resolved before offering the current AI flow to those users. See <a href="https://developers.openai.com/api/docs/guides/safety-checks/under-18-api-guidance">OpenAI's guidance for services used by minors</a>.</p>
     </section>
 
     <section aria-labelledby="rights">
