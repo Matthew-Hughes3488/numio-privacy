@@ -1,0 +1,26 @@
+:root { color-scheme: light; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #141b39; background: #fcfaf4; font-size: 17px; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.75; }
+header, main, footer { width: min(100% - 3rem, 48rem); margin-inline: auto; }
+header { display: flex; justify-content: space-between; align-items: center; padding-block: 1.75rem; border-bottom: 1px solid #dcdedc; }
+a { color: #334bae; text-underline-offset: .18em; overflow-wrap: anywhere; }
+a:hover { color: #18235e; }
+a:focus-visible { outline: 3px solid #ae7500; outline-offset: 5px; border-radius: 2px; }
+.wordmark { color: #101a43; font-size: 2rem; font-weight: 800; text-decoration: none; letter-spacing: -.055em; line-height: 1; }
+.wordmark span { color: #b57b06; font-size: 1.2rem; vertical-align: super; margin-left: .12rem; }
+main { padding-block: 3rem; }
+.eyebrow { color: #46599f; font-size: .9rem; font-weight: 700; margin: 0 0 .5rem; }
+h1 { font-size: clamp(2.25rem, 7vw, 3.3rem); line-height: 1.1; letter-spacing: -.045em; margin: 0; }
+.updated { color: #606678; margin-block: 1rem 1.75rem; font-size: .9rem; }
+.notice { padding: 1.25rem; border-left: 4px solid #b57b06; background: #fff2cb; border-radius: 0 .65rem .65rem 0; font-size: .95rem; }
+section { margin-top: 2.5rem; scroll-margin-top: 1.5rem; }
+h2 { font-size: 1.4rem; line-height: 1.35; letter-spacing: -.025em; margin-bottom: .8rem; }
+p { margin-block: .8rem; }
+ul { padding-left: 1.35rem; }
+li { margin-block: .85rem; }
+dt { font-weight: 700; margin-top: 1.5rem; }
+dd { margin: .3rem 0 0; }
+footer { padding-block: 1.5rem 2.5rem; border-top: 1px solid #dcdedc; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-size: .9rem; }
+footer span { font-weight: 700; }
+@media (max-width: 480px) { header, main, footer { width: calc(100% - 2rem); } main { padding-top: 2rem; } }
+@media print { body { background: white; color: black; } header, main, footer { width: 100%; } a { color: inherit; } }
