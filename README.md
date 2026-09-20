@@ -8,9 +8,9 @@ Plain HTML and CSS, with no build dependencies, JavaScript, analytics or externa
 
 ## Status
 
-Published **pre-launch draft**, not a final release privacy notice. The page visibly identifies unresolved points and is marked `noindex` while under review. No effective date is claimed.
+Published privacy page. At the operator's request on 20 September 2026, the draft label, banner and `noindex` were removed, and the under-13 provider issue was deferred. This publication change does not resolve the outstanding implementation or provider requirements below, or establish production compliance. The public page retains factual qualifications where retention enforcement is unverified.
 
-Before finalising:
+Outstanding launch checks:
 
 - Implement/verify the approved 90-day deletion of minimal abuse-prevention usage records following account deletion. This website does not change the backend.
 - Required UK sole-trader accounting records: approved retention of five years after the relevant 31 January filing deadline, extended where specifically required by law. Identify which records are actually needed; this is not blanket retention for all subscription events.
@@ -18,13 +18,13 @@ Before finalising:
 - Confirm actual processing regions and international-transfer safeguards with the configured providers.
 - Confirm lawful bases, age-appropriate safeguards and any necessary consent arrangements, including third-party AI disclosure/permission and analytics, for the intended audience that includes children.
 - Concrete all-ages blocker: OpenAI's under-18 guidance says not to process personal data of children under 13/the applicable digital-consent age without Zero Data Retention. Project-level ZDR approval/configuration is unverified. `store: false` for recognition is not equivalent to ZDR; generation currently uses `store: true`. Confirm provider eligibility and compatible operation before serving these users. Do not silently replace the agreed all-ages audience with a 13+ restriction.
-- Replace the draft-only passages with verified arrangements, set an effective date, and remove the draft banner and `noindex` once accurate. Keep the same URL.
+- Update the page's remaining retention qualifications when the corresponding arrangements are established and verified. Keep the same URL.
 
 Owner/contact supplied by the operator: Matthew Hughes, 12hughesm@gmail.com.
 
 ## Content evidence
 
-Draft checked against the app's Supabase account/deletion schema, OpenAI recognition and generation requests, PostHog configuration and RevenueCat integration on 20 September 2026. Those implementation details establish data flows, not a claim of production compliance or verified deployed configuration.
+Content checked against the app's Supabase account/deletion schema, OpenAI recognition and generation requests, PostHog configuration and RevenueCat integration on 20 September 2026. Those implementation details establish data flows, not a claim of production compliance or verified deployed configuration.
 
 Reference guidance:
 
