@@ -13,7 +13,8 @@ Published **pre-launch draft**, not a final release privacy notice. The page vis
 Before finalising:
 
 - Implement/verify the approved 90-day deletion of minimal abuse-prevention usage records following account deletion. This website does not change the backend.
-- Set billing, guest, log, backup and provider retention schedules; confirm downstream deletion behaviour.
+- Required UK sole-trader accounting records: approved retention of five years after the relevant 31 January filing deadline, extended where specifically required by law. Identify which records are actually needed; this is not blanket retention for all subscription events.
+- Set other operational billing, guest, log, backup and provider retention schedules; confirm downstream deletion behaviour.
 - Confirm actual processing regions and international-transfer safeguards with the configured providers.
 - Confirm lawful bases, age-appropriate safeguards and any necessary consent arrangements, including third-party AI disclosure/permission and analytics, for the intended audience that includes children.
 - Replace the draft-only passages with verified arrangements, set an effective date, and remove the draft banner and `noindex` once accurate. Keep the same URL.
