@@ -1,6 +1,6 @@
-# Numio privacy website
+# Numelo privacy website
 
-Standalone public website, separate from the private Numio iOS repository.
+Standalone public website, separate from the private Numelo iOS repository.
 
 Public URL: https://matthew-hughes3488.github.io/numio-privacy/
 
